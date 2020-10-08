@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+</head>
+<body>
+
+	<h2>Registration form</h2>
+
+	<h3>Personal Details</h3>
+
+	<form id="registration">
+		<div>
+			<label for="name">Name*</label>
+			<input id="name" type="text" name="name" required>
+		</div>
+
+		<div>
+			<label for="surname">Surname*</label>
+			<input id="surname" type="text" name="surname" required>
+		</div>
+		
+	
+		<div>
+			<label for="phone">Phone*</label>
+			<input id="phone" type="tel" name="phone" placeholder="+38(063) 329-47-09" required>
+		</div>
+
+		<div>
+			<h5>Gender</h5> 
+			<label for="man">Man</label> 
+			<input type="radio" id="man" name="gender">
+
+			<label for="woman">Woman</label>
+			<input type="radio" id="woman" name="gender">
+
+			<label for="unknown">Unknown</label>
+			<input type="radio" id="unknown" name="gender">
+		</div>
+
+		<div>
+			<label for="birth"> Date of birth</label>
+			<input type="date" id="birth" name="birth">
+		</div>
+
+		<div>
+			<label for="file">Photo</label>
+			<input name="file" type="file" lang="en">
+		</div>
+
+		<h3>Account Details</h3>
+
+		<div>
+			<label for="email">Email*</label>
+			<input id="email" type="email" name="email" value="m@gmail.com"  required>
+		</div>
+
+		<div>
+			<label for="password">Password*</label>
+			<input id="password" type="password" name="password" required>
+		</div>
+
+		<div>
+			<label for="password2">Repeat Password*</label>
+			<input id="password2" type="password" name="password2" required>
+		</div>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+
+	</form>
+	
+</body>
+</html>
